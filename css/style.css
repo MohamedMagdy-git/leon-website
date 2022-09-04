@@ -169,7 +169,7 @@ body{
 /* End Header*/
 /* Start Landing Section */
 .landing {
-    background: url(images\background-Landing.jpg);
+    background-image: url(/images/background-Landing.jpg);
     background-size: cover;
     height: 92vh;
     display: flex;
