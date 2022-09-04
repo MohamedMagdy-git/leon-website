@@ -173,12 +173,13 @@ body{
 /* End Header*/
 /* Start Landing Section */
 .landing {
-    background-image: url(/images/background-Landing.jpg);
+    background-image: url(/images/markus-spiske-Skf7HxARcoc-unsplash.jpg);
+    z-index: 1000;
     background-size: cover;
     height: 92vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .landing .intro-text{
@@ -437,10 +438,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .footer .container .copy-reserved {
     color: white;
     font-size: 15px;
+}
+@media (max-width: 400px) {
+    .footer .container .copy-reserved {
+        max-width: 232px;
+    } 
 }
 .footer .container .copy-reserved span {
     color: var(--main-color);
